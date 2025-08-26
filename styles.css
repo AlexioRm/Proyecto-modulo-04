@@ -1,0 +1,65 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0; 
+  padding: 0;
+  background: #f4f4f9;
+}
+
+header {
+  background: #25D366;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+main {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+
+h2 {
+  margin-top: 1rem;
+  color: #333;
+}
+
+form input, form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+button {
+  background: #25D366;
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #128C7E;
+}
+
+#previewBox {
+  background: white;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  min-height: 80px;
+}
+
+#templateList {
+  list-style: none;
+  padding: 0;
+}
+
+#templateList li {
+  background: white;
+  margin-bottom: 8px;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.template-actions button {
+  margin-right: 5px;
+}
