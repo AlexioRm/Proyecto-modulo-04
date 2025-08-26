@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Gestor de Plantillas WhatsApp</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Gestor de Plantillas WhatsApp</h1>
+  </header>
+
+  <main>
+    <section class="form-section">
+      <h2>Nueva Plantilla</h2>
+      <form id="templateForm">
+        <input type="text" id="templateName" placeholder="Nombre de la plantilla" required>
+        <textarea id="templateMessage" placeholder="Escribe el mensaje..." required></textarea>
+        <button type="submit">Guardar</button>
+      </form>
+    </section>
+
+    <section class="preview-section">
+      <h2>Vista Previa</h2>
+      <div id="previewBox">Aquí verás tu mensaje...</div>
+    </section>
+
+    <section class="list-section">
+      <h2>Plantillas Guardadas</h2>
+      <ul id="templateList"></ul>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
